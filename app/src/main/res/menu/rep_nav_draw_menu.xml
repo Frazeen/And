@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    tools:showIn="navigation_view"-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/rep_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/rep_update_profile"
+            android:icon="@drawable/ic_settings"
+            android:title="Update Profile" />
+        <item
+            android:id="@+id/rep_track_req"
+            android:icon="@drawable/ic_track_request"
+            android:title="Track Request" />
+
+        <item
+            android:icon="@drawable/ic_help"
+            android:id="@+id/help_center_rep"
+            android:title="Help" />
+
+        <item
+            android:icon="@drawable/ic_payment"
+            android:id="@+id/payment"
+            android:title="Payments" />
+
+        <item
+            android:icon="@drawable/ic_lock"
+            android:id="@+id/logout"
+            android:title="Logout" />
+
+
+    </group>
+</menu>

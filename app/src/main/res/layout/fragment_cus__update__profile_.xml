@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    tools:context=".Cus_Update_Profile_Frag">
+
+    <RelativeLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:text="Profile Settings"
+            android:layout_height="wrap_content"/>
+
+
+
+        <EditText
+            android:id="@+id/cus_un_edt"
+            android:layout_below="@id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:backgroundTint="@color/colorAccent"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="normal"></EditText>
+
+        <EditText
+            android:id="@+id/pwd_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/cus_un_edt"
+            android:backgroundTint="@color/colorAccent"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="normal"></EditText>
+
+        <TextView
+            android:id="@+id/phone_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/pwd_edt"
+            android:backgroundTint="@color/colorAccent"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="normal"></TextView>
+
+        <TextView
+            android:id="@+id/area_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/phone_tv"
+            android:backgroundTint="@color/colorAccent"
+            android:padding="10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="normal"></TextView>
+
+        <Button
+            android:id="@+id/save_changes_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/area_tv"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorAccent"
+            android:text="Save Changes"
+            android:textAllCaps="false"
+            android:textColor="@color/background"
+            android:textSize="16dp"></Button>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

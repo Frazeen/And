@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Electrofix</string>
+    <string name="splash_screen">electrofix</string>
+    <string name="login_btn">Login</string>
+    <string name="register_btn">Register</string>
+    <string name="email_edt">Email</string>
+    <string name="pwd_edt">Password</string>
+    <string name="uname_error">Alphabets with (.) are only allowed</string>
+    <string name="pwd_error">Atleast 8 characters with digit, special, capital characters</string>
+    <string name="phone_error">Only 10 digits are allowed</string>
+    <string name="address_error">address like (G-10, johar town)</string>
+    <string name="cnic_error">Only 13 digits are allowed</string>
+    <string name="reg_error">Only 5 to 15 digit number is allowed</string>
+    <string name="open_nav_drawer">Open navigation drawer</string>
+    <string name="close_nav_drawer">Close navigation drawer</string>
+    <string name="base_fare_error">Only 3 to 4 digit amount is valid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

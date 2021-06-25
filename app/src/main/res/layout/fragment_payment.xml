@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Repairer! you have paid 2000 rupees so far to Electrofix." />
+
+</RelativeLayout>

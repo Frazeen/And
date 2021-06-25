@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Help_Center_Frag">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/colorAccent"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="Terms and Conditions"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Term and Terminations
+Particularly useful if you offer software as a service (SaaS) applications, this section protects you from abusive users by giving you the right to report user accounts and also any content they post.
+
+Prohibited Activities
+kindly don't try to misuse the application by deceiving customers
+
+Modifications and Interruptions
+By reserving the right to report anything on your site, as well as stating that you may encounter hardware problems and downtime, you limit your liability if users claim any loss or damage because of an inability to access your site
+. Kindly report any prohibited acitivity to electrofix@gmail.com.
+Thanks!!!
+" />
+
+
+</LinearLayout>

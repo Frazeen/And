@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Cus_Req_Rep_Frag">
+
+<!--    <SearchView-->
+<!--        android:id="@+id/search_rep"-->
+<!--        android:queryBackground="@color/background"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:iconifiedByDefault="false"-->
+<!--        android:queryHint="Search by Skills">-->
+<!--        <requestFocus />-->
+<!--    </SearchView>-->
+
+    <Spinner
+        android:id="@+id/area_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textAlignment="gravity"></Spinner>
+
+    <Spinner
+        android:id="@+id/skill_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/area_sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textAlignment="gravity"></Spinner>
+
+    <Spinner
+        android:id="@+id/base_fare_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/skill_sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textAlignment="gravity"></Spinner>
+
+    <Spinner
+        android:id="@+id/sort_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/base_fare_sp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/colorAccent"
+        android:textAlignment="gravity"></Spinner>
+
+    <Button
+        android:id="@+id/find_repairer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sort_by"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_corners"
+        android:text="Find Repairer"
+        android:textAllCaps="false"
+        android:textColor="@color/background"
+        android:textSize="16dp"></Button>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/req_rep_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/find_repairer"
+        android:scrollbars="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>
